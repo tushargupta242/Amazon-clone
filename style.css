@@ -7,12 +7,20 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
 
+}
+.logoadd
+{
+    width: 204.63px;
+    height: 60px;
+    display: flex;
 }
 .logoborder{
     border: 2px solid transparent;
     width: 113px;
-    height: 50px;
+    height: 60px;
 }
 .logoborder:hover{
     border: 2px solid white;
@@ -24,4 +32,89 @@
     background-repeat: no-repeat;
     width: 113px;
     height: 50px;
+}
+.logoborder{
+    border: 2px solid transparent;
+    width: 113px;
+    height: 50px;
+    padding: 1px 8px 0px 6px;
+    margin: 1px;
+}
+.logoborder:hover{
+    border: 2px solid white;
+}
+.addborder1{
+    border: 2px solid transparent;
+    width: 90.63px;
+    height: 60px;
+}
+.addborder1:hover{
+    border: 2px solid white;
+}
+.addborder2{
+    width: 88.63px;
+    height: 50px;
+    color: #d6d6d6;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+}
+.deliver
+{ 
+    color: #cccccc;
+    font-size: 0.65rem;
+    margin-left: 15px;
+    width: 52.63px;
+    height: 14px;
+}
+.iconind
+{
+    display: flex;
+}
+.icon{
+    width: 15px;
+    height: 18px;
+    /* display: flex; */
+    /* align-items: center; */
+    margin: 8px 0px 0px;
+    
+}
+.ind
+{
+    width: 52.63px;
+    height: 16px;
+    font-size: 0.85rem;
+    /* margin-left: 3px; */
+    padding: 0px 0px 1px;
+}
+.nav-search
+{
+    width: 600px;
+    height: 40px;
+    padding: 10px 4px 10px 3px;
+    display: flex;
+    background-color: aqua; 
+    border-radius: 4px;
+}
+.drop
+{
+    width: 50px;
+    color: #0f1111;
+    background-color: #ffffff;
+    text-align: center;
+
+}
+.bar
+{
+    width: 600px;
+    height: 38px;
+    padding: 7px 10px 10px 0px;
+    background-color: #ffffff;
+
+}
+.sicon
+{
+    width: 60px;
+    height: 40px;
+    background-color: rgb(253, 177, 0);
+    align-items: center;
 }
